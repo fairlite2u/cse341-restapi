@@ -26,8 +26,8 @@ Professional
 GET /professional
 
   Return data for the professional
-    URL Params: None
-    Data Params: None
+  URL Params: None
+  Data Params: None
   Headers:
     Access-Control-Allow-Origin: *
     Access-Control-Allow-Methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
