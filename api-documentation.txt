@@ -1,0 +1,38 @@
+Professional
+
+  Professional object
+    {
+      professionalName: string,
+      base64Image: string,
+      nameLink: { 
+      firstName: string, 
+      url: string 
+    },
+    primaryDescription: string,
+    workDescription1: string,
+    workDescription2: string,
+    linkTitleText: string,
+    linkedInLink: { 
+      text: string, 
+      link: string,
+    },
+    githubLink: { 
+      text: string, 
+      link: string
+    }
+  }
+
+
+GET /professional
+
+  Return data for the professional
+    URL Params: None
+    Data Params: None
+  Headers:
+    Access-Control-Allow-Origin: *
+    Access-Control-Allow-Methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
+    Access-Control-Allow-Headers: Content-Type, Authorization
+    Content-Type: application/json
+  Success Response:
+    Code: 200
+  Content: { <professional_object> }
