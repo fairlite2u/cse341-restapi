@@ -1,3 +1,39 @@
 // Returns my professional profile data
-
 GET http://localhost:8080/professional
+
+# Professional
+
+#   Professional object
+#     {
+#       professionalName: string,
+#       base64Image: string,
+#       nameLink: { 
+#       firstName: string, 
+#       url: string 
+#     },
+#     primaryDescription: string,
+#     workDescription1: string,
+#     workDescription2: string,
+#     linkTitleText: string,
+#     linkedInLink: { 
+#       text: string, 
+#       link: string,
+#     },
+#     githubLink: { 
+#       text: string, 
+#       link: string
+#     }
+#   }
+
+
+# GET /professional
+
+#   Return data for the professional
+
+#   URL Params: None
+#   Data Params: None
+#   Headers:
+#     Content-Type: application/json
+#   Success Response:
+#     Code: 200
+#   Content: { <professional_object> }
